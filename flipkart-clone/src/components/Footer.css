@@ -1,0 +1,31 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #fbf6f6;
+    padding: 6px;
+    text-align: center;
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+.footer__links {
+    margin-bottom: 8px;
+}
+
+.footer__links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2874f0;
+    font-weight: 500;
+}
+
+.footer__links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 12px;
+    color: #888;
+}

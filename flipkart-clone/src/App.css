@@ -1,0 +1,67 @@
+/* src/App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navigation Bar Styles */
+nav {
+  padding: 10px 30px;
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #2874f0;
+  padding: 10px;
+  margin: 0 15px;
+  border-radius: 5px; /* Rounded corners for a modern look */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #2874f0; /* Blue background on hover */
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #2874f0;
+}
+
+.header__logo img {
+  height: 40px; /* Adjust logo size as needed */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2874f0;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Page Content Styles */
+main {
+  padding: 20px 30px;
+  min-height: 80vh;
+  background-color: #fff;
+}
