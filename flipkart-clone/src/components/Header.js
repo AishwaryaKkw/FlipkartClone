@@ -8,7 +8,7 @@ const Header = () => {
     <div className="header">
       <div className="header__logo">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Flipkart_logo_2018.svg" 
+          src="./logo.png" 
           alt="Flipkart Logo"
           className="header__logoImage"
         />
